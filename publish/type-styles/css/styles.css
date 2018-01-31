@@ -1,0 +1,107 @@
+body{
+	font-family: 'Ubuntu'; font-size: 20px;
+	text-align: left;
+	padding-left: 80px;
+	padding-top: 27px;
+}
+
+h1{
+	margin-bottom: 0px;
+
+}
+
+h2{
+	color:lightgray;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+h3{
+	color: rgb(220, 228, 235);
+	color: lightpink;
+	color: rgb(203, 248, 199);
+
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+h4{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left: 3px;
+	font-size: .7em;
+	color: palevioletred;
+	color:rgb(163, 208, 159);
+	padding-left: 7px;
+}
+
+.normal{
+	margin-top:0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px
+}
+
+.ex{
+	margin-top:0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px
+}
+
+#light{
+	margin-top:0px;
+	font-weight: 300;
+	margin-left: 10px;
+}
+
+#medium{
+	margin-top:0px;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+#bold{
+	margin-top:0px;
+	font-weight: 700;
+	margin-left: 10px;
+}
+
+#ital{
+	margin-top:0px;
+	margin-left: 10px;
+	font-style: italic;
+}
+
+#space3{
+	letter-spacing: .3em;
+}
+
+#space-1{
+	letter-spacing: -.1em;
+}
+
+#under{
+	text-decoration: underline;
+}
+
+#thru{
+	text-decoration: line-through;
+}
+
+#overl{
+	text-decoration: overline;
+}
+
+#upper{
+	text-transform: uppercase;
+}
+
+#lower{
+	text-transform: lowercase;
+}
+
+#cap{
+	text-transform: capitalize;
+}
