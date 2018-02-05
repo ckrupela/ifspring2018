@@ -1,0 +1,7 @@
+body{
+	font-family: 'Kalam'; font-size: 20;
+	color: red; 
+	font-weight: 500;
+}
+
+.name{text-transform: uppercase; font-weight: 700;}
