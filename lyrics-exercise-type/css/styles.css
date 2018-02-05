@@ -5,3 +5,9 @@ body{
 }
 
 .name{text-transform: uppercase; font-weight: 700;}
+
+.chorus{color: black;}
+
+.all{text-transform: uppercase; font-weight: 700;color: black;}
+
+.breakdown{color: red;}
