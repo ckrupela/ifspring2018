@@ -1,0 +1,827 @@
+body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+				position: relative;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_cocacola {
+				font-family: 'Raleway', sans-serif;
+				display: block;
+				width: 200px;
+				/*height: 75px;*/
+				box-sizing: border-box;
+				background-color: lightgray;
+				margin: auto;
+				margin-top: 75px;
+				/*padding-top: 0px;*/
+				color: red;
+				text-align: center;
+				/*padding-top: 10px;*/
+    			font-size: 40px;
+				text-decoration: none;
+				border: 1px solid red;
+				background-image: url(swoosh.1feedefe.png);
+			}
+			/*a#btn_cocacola span#cc{visibility: hidden;}
+			a#btn_cocacola span#cc:hover {visibility: visible; color:white;}*/
+			a#btn_cocacola:hover {
+				color: white;
+				width: 200px;
+				height: 200px;
+				box-sizing: border-box;
+				border-radius: 100px;
+				margin: auto;
+				margin-top: 20px;
+				padding-top: 32px;
+				background-color: red;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				background-color: red;
+				transition-duration: .3s;
+			}
+			/*a#btn_cocacola span#coke:hover {visibility: hidden;}*/
+			
+
+			a#btn_apple {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				/*border-radius: 50px;*/
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				/*background-color: #232f3e;*/
+				color: gray;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_apple:hover {
+				color: white;
+				text-shadow: 0px 0px 12px rgba(100, 100, 100, 1);
+				transition-duration: .5s;
+			}
+
+			a#btn_lyft {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: white;
+				border: 2px solid #E70B81;
+				color: #E70B81;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_lyft:hover {
+				color: white;
+				background: #e70b81 /* Old browsers */
+				background: -moz-linear-gradient(top,  #e70b81 0%, #A43682  100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e70b81), color-stop(100%,#A43682)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #E70B81 0%, #A43682 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #A43682 0%,#e70b81 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #A43682 0%,#e70b81 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #A43682 0%,#e70b81 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e70b81', endColorstr='#A43682',GradientType=0 ); /* IE6-9 */
+			}
+
+			a#btn_ibm {
+				background-image: url(images/640px-IBM_logo.svg.png);
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: center;
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				
+			}
+
+			a#btn_ibm:hover {
+				width: 150px;
+			/*	height: 150px;*/
+				background-image: center;
+				transition-duration: .2s;
+
+			}
+
+
+			a#btn_nerf{
+
+				background-image: url(images/nerf-logo-png-image-8.png);
+				display: block;
+				background-position: center;
+				margin: auto;
+				margin-top: 25px;
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: 200px;
+				width: 200px;
+				
+
+			}
+
+			a#btn_nerf:hover{
+				background-image: url(images/nerf_w_black.png);
+				margin-top: 30px;
+
+			}
+
+			a#btn_harley{
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				/*border-radius: 4px;*/
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 20px 10px 20px;
+				background-color: black;
+				color: #FF6600;
+				font-size: 18px;
+				font-family: 'Roboto Condensed', sans-serif;
+				font-weight: 300;
+				text-decoration: none;
+				text-transform: capitalize;
+			}
+
+			a#btn_harley:hover{
+				color: white;
+				font-weight: 400;
+				border: 7px solid #FF6600;
+				padding: 2px 10px 3px 10px;
+			}
+
+			a#btn_ideo{
+				display: inline-block;
+				/*height: 30px;*/
+				box-sizing: border-box;
+				margin-top: 100px;
+				/*width: 100px;
+				height: 50px;*/
+				padding: 11px 7px 10px 10px;
+				/*vertical-align: center;*/
+				border: 2px solid #69C7C7;
+				font-family: 'Lato', sans-serif;
+				font-weight: 400;
+				letter-spacing: 1px;
+				color:#69C7C7;
+				text-decoration: none;
+				font-size: 20px;
+
+
+			}
+
+			a#btn_ideo:hover{
+				background-color: #F25C21;
+				border-color: #F25C21;
+				width: 100px;
+				height: 50px;
+				padding: 11px 7px 10px 10px;
+				color: white;
+				letter-spacing: 4px;
+				transition-duration: .5s;
+			}
+
+			a#btn_moo{
+				position: absolute;
+				top: 80px;
+				left: 88px;
+				color:#6D7074;
+				display: inline-block;
+				position:center;
+				padding-top: 65px;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-size: 20px;
+				height: 200px;
+				width: 125px;
+			}
+			a#btn_moo:hover{
+  			 color: #01965E;
+  			 padding-top: 65px;
+  			 top: 80px;
+  			 left: 88px;
+  			 background-image: url(images/8335707_640x640.jpg);
+  		 	 background-size: contain;
+   			 background-repeat: no-repeat;
+  	 		 background-position-x: 0px;
+ 	  		 background-position-y: 0px;
+			}
+
+			a.btn_sardella{
+				font-family: serif;
+				color:#0706c4;
+				background-color: #00ffce;
+				text-decoration: none;
+				font-size: 70px;
+				margin-top: 20px;
+				margin-left: -5px;
+				font-family: 'Amatic SC', cursive;
+
+			}
+
+			#sard{
+				padding-top: 100px;
+			}
+
+			a#s.btn_sardella {
+				color:#00ffce;
+				background-color: #0706c4;
+			} 
+			a#s.btn_sardella:hover {
+				color:#0706c4;
+				background-color:#00ffce ;
+			} 
+
+			a#a1.btn_sardella{
+				color:#00d2ce;
+				background-color: #00ffce;
+			}
+			a#a1.btn_sardella:hover{
+				color:#00ffce;
+				background-color:#00d2ce;
+			}
+
+			a#r.btn_sardella{
+				color:#FFFFFF;
+				background-color: #0706C5;
+			}
+			a#r.btn_sardella:hover{
+				color:#0706C5;
+				background-color: #FFFFFF;
+			}
+
+			a#d.btn_sardella{
+				color:#00ffce;
+				background-color: #00d2ce;
+			}
+			a#d.btn_sardella:hover{
+				color:#00d2ce;
+				background-color:#00ffce;
+			}
+
+			a#e.btn_sardella{
+				color:#0706c4;
+				background-color:#00ffce;
+			}
+			a#e.btn_sardella:hover{
+				color:#00ffce;
+				background-color:#0706c4;
+			}
+
+			a#l1.btn_sardella{
+				color:#FFFFFF;
+				background-color:#00d2ce;
+			}
+			a#l1.btn_sardella:hover{
+				color:#00d2ce;
+				background-color:#FFFFFF;
+			}
+
+			a#l2.btn_sardella{
+				color:#00d2ce;
+				background-color: #00ffce;
+			}
+			a#l2.btn_sardella:hover{
+				color:#00ffce;
+				background-color:#00d2ce;
+			}
+
+			a#a2.btn_sardella{
+				color:#00d2ce;
+				background-color: #0706c4;
+			}
+			a#a2.btn_sardella:hover{
+				color:#0706c4;
+				background-color:#00d2ce;
+			}
+
+			a#btn_samsung{
+				display: block;
+				width: 50px;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 90px;
+				padding-top: 8px;
+				background-color: #034EA2;
+				color: #034EA2;
+				text-align: center;
+				font-size: 60px;
+			}
+			a#btn_samsung:hover{
+				background-image: url(images/2000px-Samsung_Logo.svg.png);
+				height: 150px;
+				width: 200px;
+				border-radius: 20px;
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-color: white;
+				transition-duration: .2s;
+
+			}
+
+			a#btn_dcc{
+				position: absolute;
+				top: 80px;
+				left: 88px;
+				color:black;
+				display: inline-block;
+				position:center;
+				padding-top: 40px;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-size: 20px;
+				height: 200px;
+				width: 125px;
+
+				
+
+			}
+			a#btn_dcc:hover{
+				color: #AA1E24;
+  			 	padding-top: 40px;
+  			 	font-weight: bold;
+  			 	text-shadow: 3px 0px 4px rgba(255, 255, 255, 1);
+  			 	top: 80px;
+  			 	left: 88px;
+  			 	background-image: url(images/5090-200.png);
+  		 	 	background-size: contain;
+   			 	background-repeat: no-repeat;
+  	 		 	background-position-x: 0px;
+ 	  		 	background-position-y: 0px;
+ 	  		 	transition-duration: .2s;
+ 	  		 }
+
+ 	  		 #cn{
+ 	  		 	padding-top: 110px;
+ 	  		 }
+ 	  		 a#btn_cnC{
+ 	  		 	font-family: 'Poppins', sans-serif;
+ 	  		 	display: inline-block;
+ 	  		 	padding-top: 3px;
+ 	  		 	color: white;
+ 	  		 	background-color: black;
+ 	  		 	background-size: fill;
+ 	  		 	height:50px;
+ 	  		 	width: 50px;
+ 	  		 	text-decoration: none;
+ 	  		 	font-size: 30px;
+ 	  		 	margin-right: 0px;
+ 	  		 }
+ 	  		 a#btn_cnC:hover{
+ 	  		 	color:black;
+ 	  		 	background-color: white;
+ 	  		 }
+ 	  		 a#btn_cnN{
+ 	  		 	font-family: 'Poppins', sans-serif;
+ 	  		 	display: inline-block;
+ 	  		 	padding-top: 3px;
+ 	  		 	color:black;
+ 	  		 	background-color: white;
+ 	  		 	height: 50px;
+ 	  		 	width: 50px;
+ 	  		 	text-decoration: none;
+ 	  		 	font-size: 30px;
+ 	  		 	margin-left: -4px;
+ 	  		 }
+ 	  		 a#btn_cnN:hover{
+ 	  		 	color:white;
+ 	  		 	background-color: black;
+ 	  		 }
+
+ 	  		 a#btn_ofa{
+ 	  		 	font-family: 'Poppins', sans-serif;
+   				padding-top: 25px;
+  				padding-bottom: 25px;
+  				font-size: 30px;
+  				margin-top: 70px;
+   				display: inline-block;
+ 	  		 	/*height:100px;*/
+ 	  		 	width: 100px;
+ 	  		 	color:#17B5DC;
+ 	  		 	text-decoration: none;
+ 	  		 }
+ 	  		 a#btn_ofa:hover{
+ 	  		 	color: white;
+ 	  		 	background-color: #17B5DC;
+ 	  		 	transition-duration: .2s;
+ 	  		 }
+
+ 	  		 a#btn_tonightshow{
+ 	  		 	display:inline-block;
+ 	  		 	position: relative;
+    			top: 30px;
+    			left: 0%;
+ 	  		 	width: 200px;
+				height: 200px;
+				box-sizing: border-box;
+				border-radius: 100px;
+				margin: auto;
+				background-color: #003054;
+
+ 	  		 }
+ 	  		 a#btn_tonightshow:hover{
+ 	  		 	background-image: url(images/The_Tonight_Show_Starring_Jimmy_Fallon.svg.png);
+ 	  		 	background-size: contain;
+ 	  		 	transition-duration: .3s;
+ 	  		 }
+
+ 	  		 a#btn_nike{
+ 	  		 	display: inline-block;
+ 	  			position: relative;
+ 	  			top:50%;
+ 	  			transform: translateY(-50%);
+ 	  		 	background-image: url(images/Nike_logo_black.png);
+ 	  		 	height: 100px;
+ 	  		 	width: 200px;
+ 	  		 	background-repeat: no-repeat;
+ 	  		 	background-size: contain;
+ 	  		 }
+ 	  		 a#btn_nike:hover{
+ 	  		 	background-image: url(images/Nike_logo_orange.png);
+ 	  		 	transition-duration: .5s;
+ 	  		 }
+
+ 	  		 a#btn_botgard{
+ 	  		 	display: inline-block;
+ 	  		 	margin-top: 50%;
+ 	  		 	transform: translateY(-50%);
+ 	  		 	font-family: serif;
+ 	  		 	height: 20px;
+ 	  		 	width: 217px;
+ 	  		 	color: #3F6631;
+ 	  		 	font-size: 20px;
+ 	  		 	padding:0px 0px 0px 0px;
+ 	  		 	text-decoration: none;
+ 	  		 }
+ 	  		 a#btn_botgard:hover{
+ 	  		 	background-color: #3F6631;
+ 	  		 	color: white;
+ 	  		 	width:240px;
+ 	  		 	padding-bottom: 9px;
+ 	  		 	padding-top: 6px;
+ 	  		 	transition-duration: .5s;
+ 	  		 }
+
+ 	  		 a#btn_hulkhogan{
+ 	  		 	position: relative;
+ 	  		 	background-image: url(images/horseshoe-mustache.png);
+ 	  		 	height: 200px;
+				width: 200px;
+ 	  		 	background-size: contain;
+ 	  		 	background-repeat: no-repeat;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-63%) translateY(-50%);
+				color:#FFD301;
+				display: inline-block;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-size: 20px;
+				}
+ 	  		 a#btn_hulkhogan:hover{
+ 	  		 	color: #FF0002;
+ 	  		 	text-transform: uppercase;
+ 	  		 	transition-duration: .3s;
+ 	  		 	background-image: url(images/horseshoe-mustache-hulk.png);
+ 	  		 }
+
+ 	  		 a.btn_tesla{
+ 	  		 	display: block;
+ 	  		 	height: 35px;
+ 	  		 	font-size: 20px;
+ 	  		 	color: white;
+ 	  		 	border-left: 1px solid #999999;
+ 	  		 	text-align: left;
+ 	  		 	text-decoration: none;
+ 	  		 	margin-bottom: 20px;
+
+ 	  		 }
+ 	  		 a.btn_tesla:hover{
+ 	  		 	border-left: 3px solid black;
+    			padding: 5px;
+    		    padding-bottom: 12px;
+    			padding-top: 3px;
+    			font-size: 30px;
+    			height: 33px;
+    			color: black;
+    			transition-duration: .3s;
+ 	  		 }
+
+ 	  		 a#btn_insta{
+ 	  		 	display: inline-block;
+ 	  		 	color: black;
+ 	  		 	position: relative;
+ 	  		 	margin-top: 20px;
+ 	  		 	top: 50%
+ 	  		 	left:50%;
+ 	  		 	font-size: 125px;
+ 	  		 	text-decoration: none;
+ 	  		 	height: 175px;
+ 	  		 	width: 175px;
+ 	  		 	box-sizing: border-box;
+				border-radius: 20px;
+				text-align: center;
+ 	  		 }
+ 	  		 a#btn_insta:hover{
+ 	  		 	color: white;
+ 	  		 	background-position: center;
+ 	  		 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feda75+1,feda75+1,fa7e1e+30,d62976+59,962fbf+85,4f5bd5+100 */
+				background: #feda75; /* Old browsers */
+				background: -moz-linear-gradient(45deg, #feda75 1%, #feda75 1%, #fa7e1e 30%, #d62976 59%, #962fbf 85%, #4f5bd5 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(45deg, #feda75 1%,#feda75 1%,#fa7e1e 30%,#d62976 59%,#962fbf 85%,#4f5bd5 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(45deg, #feda75 1%,#feda75 1%,#fa7e1e 30%,#d62976 59%,#962fbf 85%,#4f5bd5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feda75', endColorstr='#4f5bd5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 	  		 	transition-duration: .3s;}
+ 	  		 a#btn_colorrun{
+ 	  		 	display: inline-block;
+ 	  		 	margin-top: 80px;
+ 	  		 	font-family: 'Roboto Condensed', sans-serif;
+ 	  		 	font-weight: 700;
+ 	  		 	text-transform: uppercase;
+ 	  		 	color: black;
+ 	  		 	font-size: 40px;
+ 	  		 	text-decoration: none;
+
+ 	  		 }
+ 	  		 a#btn_colorrun span#the:hover{
+ 	  		 	color: #EC008C
+ 	  		 }
+ 	  		 a#btn_colorrun span#color:hover{
+ 	  		 	color: #FFF200
+ 	  		 }
+ 	  		 a#btn_colorrun span#run:hover{
+ 	  		 	color: #00AEEF;
+ 	  		 }
+
+ 	  		 a#btn_pottermore{
+ 	  		 	font-family: 'Zeyada', cursive;
+ 	  		 	/*font-family: 'La Belle Aurore', cursive;*/
+ 	  		 	display: inline-block;
+ 	  		 	margin-top: 50%;
+ 	  		 	transform: translateY(-50%);
+ 	  		 	color: #800041;
+ 	  		 	font-size: 70px;
+ 	  		 	text-decoration: none;
+
+ 	  		 }
+ 	  		 a#btn_pottermore:hover{
+ 	  		 	color: white;
+ 	  		 	text-shadow: 0px 0px 12px #996e00;
+ 	  		 	transition-duration: .5s;
+
+ 	  		 }
+ 	  		
+ 	  		a#btn_fitbit{
+ 	  			display: inline-block;
+ 	  			color:#4CC2C4;
+ 	  			background-image: url(images/fitbit_gray.png);
+ 	  			height: 100px;
+ 	  			width: 100px;
+ 	  			background-repeat: no-repeat;
+ 	  			background-size: contain;
+ 	  			text-decoration: none;
+ 	  			margin: auto;
+ 	  			margin-top: 60px;
+ 	  			font-size: 30px;
+ 	  			padding-top: 100px;
+
+ 	  		}
+ 	  		a#btn_fitbit:hover{
+ 	  			background-image: url(images/fitbit_teal.png);
+ 	  			color:#343434;
+
+ 	  		}
+
+ 	  		a#btn_hsn{
+ 	  			display: inline-block;
+    			font-family: 'Work Sans', sans-serif;
+   				color: #0076C8;
+    			text-decoration: none;
+    			margin-top: 85px;
+    			padding-top: 10px;
+    			font-size: 45px;
+    			text-transform: uppercase;
+    			letter-spacing: -1px;
+ 	  		}
+ 	  		a#btn_hsn:hover{
+ 	  			padding-top: 22px;
+    			background-color: #0076C8;
+    			color: white;
+    			margin-top: 72px;
+    			width: 100px;
+    			height: 78px;
+    			border-radius: 50px
+
+ 	  		}
+
+ 	  		a#btn_fb{
+ 	  			display: inline-block;
+ 	  			color:lightgray;
+ 	  			text-decoration: none;
+ 	  			font-size: 50px;
+ 	  			margin-top: 83px;
+
+ 	  		}
+ 	  		a#btn_fb:hover{
+ 	  			color: #3B5998;
+ 	  			font-size: 100px;
+ 	  			margin-top: 42px;
+ 	  			transition-duration: .2s;
+ 	  		}
+
+ 	  		#npr_container{
+ 	  			position: relative;
+ 	  			top:50%;
+ 	  			transform: translateY(-50%);
+ 	  		}
+ 	  		a#btn_npr_n{
+ 	  			display: inline-block;
+ 	  			color:#ED5A29;
+ 	  			height: 30px;
+ 	  			width: 30px;
+ 	  			background-color: white;
+ 	  			/*border: 1px solid #ED5A29;*/
+ 	  			text-decoration: none;
+ 	  			font-size: 18px;
+ 	  		}
+ 	  		a#btn_npr_n:hover{
+ 	  			color:white;
+ 	  			background-color: #ED5A29;
+ 	  		}
+ 	  		a#btn_npr_p{
+ 	  			display: inline-block;
+ 	  			color:#0B0E17;
+ 	  			/*padding-top: 1px;*/
+ 	  			height: 30px;
+ 	  			width: 30px;
+ 	  			background-color: white;
+ 	  			/*border: 1px solid #0B0E17;*/
+ 	  			text-decoration: none;
+ 	  			margin-left: -4px;
+ 	  			font-size: 18px;
+ 	  		}
+ 	  		a#btn_npr_p:hover{
+ 	  			color:white;
+ 	  			background-color: #0B0E17;
+ 	  		}
+ 	  		a#btn_npr_r{
+ 	  			display: inline-block;
+ 	  			color:#5A8BC6;
+ 	  			height: 30px;
+ 	  			width: 30px;
+ 	  			background-color: white;
+ 	  			/*border: 1px solid #5A8BC6;*/
+ 	  			text-decoration: none;
+ 	  			margin-left: -4px;
+ 	  			font-size: 18px;
+ 	  		}
+ 	  		a#btn_npr_r:hover{
+ 	  			color:white;
+ 	  			background-color: #5A8BC6;
+ 	  		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
