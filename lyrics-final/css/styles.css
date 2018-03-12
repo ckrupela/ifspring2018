@@ -1,0 +1,181 @@
+body{
+	background-image: url(images/rough-beige-paper-texture.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: fixed;
+}
+
+h1{
+	color: #663333;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    margin-left: 271px;
+    margin-top: 40px;
+    font-size: 40px;
+
+}
+
+h2{
+	color: #25443C;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    margin-left: 301px;
+    margin-top: 100px;
+}
+
+#social{
+	margin-top: 546px;
+    margin-left: 315px;
+    position: fixed;
+    z-index: 300;
+}
+
+a.social_button{
+	display: inline-block;
+    color: #25443C;
+    font-size: 25px;
+    height: 13px;
+    width: 34px;
+    text-decoration: none;
+}
+
+a.social_button:hover {
+	color: #81ADB0;
+	transition-duration: .3s;
+}
+
+#syrup{
+	float: left;
+	margin-left: 0px;
+	display: inline-block;
+}
+
+#bottle{
+	display: inline-block;
+    background-image: url(images/bottle.png);
+    background-repeat: no-repeat;
+    height: 271px;
+    width: 1280px;
+    background-size: cover;
+    position: relative;
+    top: -19px;
+    left: -10px;
+    z-index: 14;
+}
+#stream{
+	display: inline-block;
+    background-image: url(images/syrup_stream.png);
+    background-repeat: no-repeat;
+    height: 871px;
+    width: 700px;
+    background-size: cover;
+    position: absolute;
+    bottom: -273px;
+    left: -68px;
+    z-index: 11;
+}
+#spoon{
+	display: inline-block;
+    background-image: url(images/spoon.png);
+    background-repeat: no-repeat;
+    height: 283px;
+    width: 1280px;
+    background-size: cover;
+    position: absolute;
+    bottom: -370px;
+    left: -8px;
+    z-index: 15;
+}
+
+#right_side{
+	float: right;
+	width: 50%;
+	display: inline-block;
+	margin-top: -215px;
+	/*margin-top: 100px;*/
+    margin-bottom: 70px;
+}
+
+.lyrics {
+	    color: #25443C;
+    font-family: Andale Mono ,AndaleMono,monospace;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    margin: 30px 65px 10px 10px;
+    z-index: 25;
+    text-shadow: 2px 1px 2px #E5E4E0;;
+
+}
+
+#left_side{
+	float: left;
+	width: 50%;
+	position: relative;
+	margin-left: 20px;
+    margin-top: 20px;
+}
+
+/*#syrup_left{
+	display: inline-block;
+	position: relative;
+	left: -7px;
+	width: 1920px;
+}
+#bottle_left{
+	display: inline-block;
+	height: 800px;
+	background-image: url(images/spoon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 0px;
+
+
+}
+#stream_left{
+
+}
+#spoon_left{
+
+}*/
+
+#pic{
+	display: inline-block;
+	height: 400px;
+	width: 400px;
+	background-image: url(images/torn_background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: fixed;
+	margin-top: 140px;
+	margin-left: 225px;
+	z-index: 20;
+	/*left: 50%;*/
+	/*transform: translateX(-50%);*/
+
+}
+
+#album_cover{
+	display: inline-block;
+	height: 295px;
+	width: 295px;
+	background-image: url(images/9f44b4c830ea621a9ac81d335d5a0186.1000x1000x1.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-55%) translateY(-50%);
+	z-index: 19;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
