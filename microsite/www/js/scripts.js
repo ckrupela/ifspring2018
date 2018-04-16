@@ -5,9 +5,9 @@ $(document).ready(function(){
 		 $(this).hide([.5]);
 	})
 
-	// $("#life").hover(function(){
-	// 	$("#redlife").show();
-	// 	$("#graylife").show();
+	$("#life").hover(function(){
+		$("#redlife").show();
+		$("#graylife").show();
 
 	})
 
@@ -16,7 +16,7 @@ $(document).ready(function(){
 
   // Or with jQuery
 
-     $(".carousel").carousel();
+     $('.carousel').carousel();
 	
 
 
