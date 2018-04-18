@@ -5,18 +5,16 @@ $(document).ready(function(){
 		 $(this).hide([.5]);
 	})
 
-	$("#life").hover(function(){
-		$("#redlife").show();
-		$("#graylife").show();
+	// $("#life").hover(function(){
+	// 	$("#redlife").hide();
+	// 	$("#graylife").hide();
 
-	})
+	// })
 
 	// var elem = document.querySelector('.carousel');
  //    var instance = M.Carousel.init(elem, options);
 
-  // Or with jQuery
-
-     $('.carousel').carousel();
+  // O
 	
 
 

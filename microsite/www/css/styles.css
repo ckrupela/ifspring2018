@@ -14,6 +14,9 @@ h1{
 	font-size: 65px;
 	
 }
+/*#pic:hover{
+	cursor: pointer;
+}*/
 #gray{
 	color: #999999;
 	margin-bottom: -123px;
@@ -36,6 +39,11 @@ a{
 	font-weight: 800;
 	
 }
+#nav a:hover{
+	text-shadow: 2.5px 0px 0px black, 3.5px 0px 0px #990000;
+	/*text-shadow: 1px 0px 0px #999999, 2.2px 0px 0px #990000;
+    color: black;*/
+}
 #sidebar p {
 	font-family: 'Montserrat', 'Roboto', sans-serif;
 	display: block;
@@ -53,6 +61,9 @@ a{
 #kw{
 	margin-bottom: 12px;
 }
+#kw:hover{
+	text-shadow: 2px 0px 0px #333333, 3.5px 0px 0px #990000;
+}
 #kw a{
 	font-size: 33px;
 	/*margin: 0;*/
@@ -64,6 +75,14 @@ a{
 	letter-spacing: 5px;
 	margin-bottom: 0;
 }
+#sidebar .potential:hover{
+	color: #999999;
+	text-shadow: 2px 0px 0px #333333, 3px 0px 0px #990000; 
+	
+}
+/*#sidebar #active:hover{
+	text-shadow: none;
+}*/
 #active{
 	color: #999999;
 }
@@ -72,11 +91,11 @@ a{
 }
 #redlife{
 	color: #990000;
-	visibility: hidden;
+    visibility: hidden; 
 }
 #graylife{
 	color: #999999;
-	visibility: hidden;
+    visibility: hidden;
 }
 
 #landing {
@@ -92,6 +111,9 @@ a{
 	left: 0;
 	top: 0;
 	z-index: 100;
+}
+#landing:hover{
+	cursor: pointer;
 }
 #pic {
 	display: inline-block;
@@ -169,6 +191,7 @@ a{
 
 .album{
 	margin-bottom: 10%;
+	position: relative;
 }
 
 .cover {
@@ -179,13 +202,20 @@ a{
 	height: 250px;
 	width: 250px;
 	/*margin-left: 5%;*/
-	margin-right: 5%;
+	margin-right: 2%;
 	float: left;
 }
 
 .ticker{
 	color: #999999;
-	border-width: 3px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 5%;
+    position: absolute;
+    left: 0;
+    top: 115px;
+    margin-left: -5.5%;
 }
 
 #college_dropout{

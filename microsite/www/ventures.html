@@ -8,6 +8,7 @@
 	<link href="css/ventures_styles.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
+	<script src="js/ventures_scripts.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:800,900,900i|Roboto:900,900i" rel="stylesheet">
 </head>
 <body id="ventures">
@@ -17,8 +18,6 @@
 			<a href="index.html" id="w">WEST</a>
 		</div>
 		<a href="life.html" class="potential" id="life">Life</a>
-		<!-- <p id="redlife">Life</p>
-		<p id="graylife">Life</p> -->
 		<a href="career.html" class="potential">Career</a>
 		<a href="ventures.html" id="active">Ventures</a>
 		<a href="achievements.html" class="potential">Achievements</a>	
@@ -26,14 +25,99 @@
 	</div>
 	<div id="main">
 		<h2>FASHION + OTHER VENTURES</h2>
-		<div class="carousel">
-   			<a class="carousel-item" href="#one!"><img src= images/_AG18885.jpg></a>
-    		<a class="carousel-item" href="#two!"><img src=images/155573_01.jpg></a>
-    		<a class="carousel-item" href="#three!"><img src=images/802390_01.jpg></a>
-    		<a class="carousel-item" href="#four!"><img src=images/adidas-yeezy-boost-350-v2-white-core-black-red-2.jpg></a>
-    		<a class="carousel-item" href="#five!"><img src=images/kanye-west-clothing-line-for-men.jpg></a>
-    		<a class="carousel-item" href="#six!"><img src=images/Screen-Shot-2015-09-16-at-12.22.51-PM.png></a>
-  		</div>
+		<div class="demo-wrap">
+			<div id="demo" class="demo">
+				<ul class="slide-wrap" id="example">
+					<li class="pos1">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=944"/>
+								<span class="pic-tit">1</span>
+							</a>
+						</div>
+					</li>
+					<li class="pos2">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=943"/>
+								<span class="pic-tit">2</span>
+							</a>
+						</div>
+					</li>
+					<li class="pos3">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=942"/>
+								<span class="pic-tit">3</span>
+							</a>
+						</div>
+					</li>
+					<li class="pos4">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=941"/>
+								<span class="pic-tit">4</span>
+							</a>
+						</div>
+					</li>
+					<li class="pos5">
+						<div class="inner">
+							<a href="#">
+								<img src="https://unsplash.it/300/390?image=940"/>
+								<span class="pic-tit">5</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<a href="#">
+								<img data-src="https://unsplash.it/300/390?image=840"/>
+								<span class="pic-tit">6</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<a href="#">
+								<img data-src="https://unsplash.it/300/390?image=540"/>
+								<span class="pic-tit">7</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="inner">
+							<a href="#">
+								<img data-src="https://unsplash.it/300/390?image=340"/>
+								<span class="pic-tit">8</span>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<i class="arrow prev" id="jprev">&lt;</i>
+				<i class="arrow next" id="jnext">&gt;</i>
+			</div>
+		</div><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.rollingslider.js"></script>
+		<script>
+			$('#demo').RollingSlider({
+				showArea:"#example",
+				prev:"#jprev",
+				next:"#jnext",
+				moveSpeed:300,
+				autoPlay:false
+			});
+		</script><script type="text/javascript">
+			var _gaq = _gaq || [];
+  			_gaq.push(['_setAccount', 'UA-36251023-1']);
+			_gaq.push(['_setDomainName', 'jqueryscript.net']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
   		<p>Early in his career, West made clear his interest in fashion and desire to work in the clothing design industry.[36][94] In September 2005, West announced that he would release his Pastelle Clothing line in spring 2006, claiming "Now that I have a Grammy under my belt and Late Registration is finished, I am ready to launch my clothing line next spring."[188] The line was developed over the following four years – with multiple pieces teased by West himself – before the line was ultimately cancelled in 2009.[189][190] In 2009, West collaborated with Nike to release his own shoe, the Air Yeezys, with a second version released in 2012. In January 2009, West introduced his first shoe line designed for Louis Vuitton during Paris Fashion Week. The line was released in summer 2009.[191] West has additionally designed shoewear for Bape and Italian shoemaker Giuseppe Zanotti.[192] In fall 2009 West moved to Rome and did an internship at Italian fashion brand Fendi where he gave ideas for the men's collection.[193] In March 2011, West collaborated with M/M Paris for a series of silk scarves featuring artwork from My Beautiful Dark Twisted Fantasy.[194]</p>
 
 
