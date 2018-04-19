@@ -41,7 +41,7 @@ a{
 	
 }
 #nav a:hover{
-	text-shadow: 2.5px 0px 0px black, 3.5px 0px 0px #990000;
+	text-shadow: 4px 0px 0px black, 5.5px 0px 0px #990000;
 	/*text-shadow: 1px 0px 0px #999999, 2.2px 0px 0px #990000;
     color: black;*/
 }
@@ -58,6 +58,7 @@ a{
 	position: fixed;
 	margin-left: 6%;
 	margin-top: 6%;
+	width: 35%;
 }
 #kw{
 	margin-bottom: 70px;
@@ -93,13 +94,13 @@ a{
 	color: #333333;
 	font-weight: 700;
 }
-#redlife{
+/*#redlife{
 	color: #990000;
     visibility: hidden; 
 }
 #graylife{
 	color: #999999;
-    visibility: hidden;
+    visibility: hidden*/;
 }
 
 #landing {
@@ -265,7 +266,9 @@ a{
 	background-size: contain;
 }
 
-
+@media(max-width: 1100px){
+	
+}
 
 
 
