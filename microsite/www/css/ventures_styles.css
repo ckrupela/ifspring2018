@@ -28,13 +28,36 @@ html, body {
 	text-shadow: 1.5px 0px 0px #999999, 3.5px 0px 0px #990000;
 }
 
+#words{
+	margin-top: 490px;
+}
+
 * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.demo-wrap { margin-top: 150px; }
+#demo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	float: inherit;
+   transform: scale(.9, .9) translate(-54%, -50%);
+   /*display: block;*/
+}
+/*#clothing1 {
+	background-image: url(../images/_AG18885.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}*/
+
+.demo-wrap { 
+	margin-top: 260px;
+	position: relative;
+	display: block;
+ }
 
 .demo-wrap .demo {
   width: 1000px;
@@ -171,12 +194,12 @@ html, body {
 }
 
 .prev {
-  left: 330px;
+  left: 290px;
   background-position: 0px 0px;
 }
 
 .next {
-  right: 330px;
+  right: 360px;
   background-position: -52px 0px;
 }
 
