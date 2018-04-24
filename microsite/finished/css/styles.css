@@ -1,0 +1,292 @@
+html, body {
+	height: 100%;
+}
+body {
+	padding-top: 0;
+	margin: 0;
+	background-color: #231F20;
+	
+}
+
+h1{
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+	color: #000000;
+	font-size: 65px;
+	
+}
+/*#pic:hover{
+	cursor: pointer;
+}*/
+#gray{
+	color: #999999;
+	margin-bottom: -123px;
+	margin-left: 2px;
+}
+#red{
+	color: #990000;
+	margin-bottom: -122px;
+	margin-left: 5px;
+
+}
+
+a{
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+    display: block;
+    color: #999999;
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 16px;
+    margin-left: 9px;
+    font-weight: 800;
+	
+}
+#nav a:hover{
+	text-shadow: 4px 0px 0px black, 5.5px 0px 0px #990000;
+	/*text-shadow: 1px 0px 0px #999999, 2.2px 0px 0px #990000;
+    color: black;*/
+}
+/*#sidebar p {
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+	display: block;
+	color: #999999;
+	text-decoration: none;
+	font-size: 25px;
+	margin-bottom: 25px;
+	font-weight: 800;
+}*/
+#sidebar{
+	position: fixed;
+	margin-left: 6%;
+	margin-top: 6%;
+	width: 35%;
+}
+#kw{
+	margin-bottom: 70px;
+}
+#kw:hover{
+	text-shadow: 2.5px 0px 0px #333333, 4.5px 0px 0px #990000;
+}
+#kw a{
+	font-size: 50px;
+	/*margin: 0;*/
+}
+#k{
+	margin-bottom: -14px;
+	margin-left: 0;
+}
+#w{
+	letter-spacing: 8px;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+#sidebar .potential:hover{
+	color: #999999;
+	text-shadow: 2px 0px 0px #333333, 3px 0px 0px #990000; 
+	
+}
+/*#sidebar #active:hover{
+	text-shadow: none;
+}*/
+#active{
+	color: #999999;
+}
+.potential{
+	color: #555555;
+	font-weight: 700;
+}
+/*#redlife{
+	color: #990000;
+    visibility: hidden; 
+}
+#graylife{
+	color: #999999;
+    visibility: hidden;
+}*/
+
+#landing {
+	
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/Kanye-West_2016_P1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	background-position: left;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+#landing:hover{
+	cursor: pointer;
+}
+#pic {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/black-and-white-kanye-west-wallpaper.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: fixed;
+	background-position: bottom right;
+	right: -150px;
+	bottom: 0;
+}
+#home_text{
+	position: fixed;
+	top: 45px;
+	left: 100px;
+	/*font-size: 100px;*/
+}
+#nav{
+	margin-left: 90px;
+    margin-top: 100px;
+}
+
+#nav a{
+	margin-bottom: 0;
+	font-size: 43px;
+}
+
+
+#main{
+	width: 60%;
+	/*position: fixed;*/
+	float: right;
+	font-family: 'Montserrat', 'Roboto', sans-serif;
+	font-weight: 800;
+	color: #999999;
+	display: inline-block;
+	margin-right: 10%;
+	margin-top: 130px;
+
+}
+
+#main h2{
+	font-size: 35px;
+	line-height: 30px;
+	font-weight: 700;
+}
+
+#main p{
+	line-height: 1.4;
+    font-size: 25px;
+    font-weight: 300;
+	/*display: inline-block*/;
+}
+
+
+#timeline {
+	float: left;
+	border-left-color: #999999;
+	border-left-width: 3px;
+	border-left-style: solid;
+	font-size: 20px;
+	line-height: 20px;
+	padding-left: 5%;
+}
+#timeline p{
+	font-size: 20px;
+	line-height: 30px;
+}
+
+/*
+.text{
+ 	width: 80%;
+ 	/*display: block
+}*/
+
+.album{
+	margin-bottom: 10%;
+	position: relative;
+}
+
+.cover {
+	display: inline-block;
+	border-color: #999999;
+	border-width: 4px;
+	border-style: solid;
+	height: 250px;
+	width: 250px;
+	/*margin-left: 5%;*/
+	margin-right: 2%;
+	float: left;
+}
+
+.ticker{
+	color: #999999;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 5%;
+    position: absolute;
+    left: 0;
+    top: 115px;
+    margin-left: -5.5%;
+}
+
+#college_dropout{
+	background-image: url(../images/the-college-dropout.jpg);
+	background-repeat: none;
+	background-size: contain;
+}
+
+#late_registration{
+	background-image: url(../images/20be4a5ccc57daf3577b7e0d12f092f8.1000x1000x1.jpg);
+	background-repeat: none;
+	background-size: contain;
+}
+
+#graduation{
+	background-image: url(../images/680d4985b1fccdf554ab887abb63a453.1000x1000x1.jpg);
+	background-repeat: none;
+	background-size: contain; 
+}
+
+#heartbreaks{
+	background-image: url(../images/808s-and-Heartbreak-Anniversary-560x560.jpg);
+	background-repeat: none;
+	background-size: contain;
+}
+#twisted{
+	background-image: url(../images/v600_91dHRGIV65L._SL1500_.jpg);
+	background-repeat: none;
+	background-size: contain;
+}
+
+#yeezus{
+	background-image: url(../images/7a4d222fe114a84612c546abfe8f3a21.1000x1000x1.jpg);
+	background-repeat: none;
+	background-size: contain;
+}
+
+#pablo{
+	background-image: url(../images/kanye-west-the-life-of-pablo-album-cover_olzhwf.jpg);
+	background-repeat: none;
+	background-size: contain;
+}
+
+@media(max-width: 1100px){
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
