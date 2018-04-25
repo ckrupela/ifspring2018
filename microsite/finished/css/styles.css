@@ -322,7 +322,11 @@ a{
     	margin-top: 30px;
 	}
 }
-@media(max-width:770px){
+@media(max-width: 810px){
+
+
+}
+@media(max-width:800px){
 	#home_text h1{
 		font-size: 126px;
     	text-shadow: 4px 0px 0px #999999, 9px 0px 0px #990000;
@@ -345,7 +349,7 @@ a{
 	}
 
 }
-@media(max-width: 380px){
+@media(max-width: 700px){
 	#home_text{
 		margin: 0;
 	}
@@ -371,19 +375,27 @@ a{
     	right: -347px;
 	}
 	#sidebar{
-		position: fixed;
-		margin-left: 6%;
-		margin-top: 6%;
-		width: 35%;
+		float: none;
+		position: relative;
+		margin: auto;
+		width: 100%;
+		background-color: #231F20;
+		text-align: center;
+		display: block;
+		margin-bottom: 10px;
+	}
+	#links a{
+		font-size: 35px;
+		margin-bottom: 10px;
 	}
 	#kw{
-		margin-bottom: 70px;
+		margin-bottom: 20px;
 	}
-	#kw:hover{
+	/*#kw:hover{
 		text-shadow: 2.5px 0px 0px #333333, 4.5px 0px 0px #990000;
-	}
+	}*/
 	#kw a{
-		font-size: 50px;
+		font-size: 83px;
 		/*margin: 0;*/
 	}
 	#k{
@@ -391,24 +403,61 @@ a{
 		margin-left: 0;
 	}
 	#w{
-		letter-spacing: 8px;
+		letter-spacing: 10px;
 		margin-bottom: 0;
 		margin-left: 0;
 	}
-	#sidebar .potential:hover{
-		color: #999999;
-		text-shadow: 2px 0px 0px #333333, 3px 0px 0px #990000; 
-		
+
+	#main{
+		width: 100%;
+		display: block;
+		margin: 0;
+
 	}
-	/*#sidebar #active:hover{
-		text-shadow: none;
-	}*/
-	#active{
-		color: #999999;
-	}
-	.potential{
-		color: #555555;
+
+	#main h2{
+		font-size: 35px;
+		line-height: 30px;
 		font-weight: 700;
+	}
+
+	#main p{
+		line-height: 1.4;
+	    font-size: 25px;
+	    font-weight: 300;
+	}
+
+	#timeline {
+		border: none;
+		font-size: 20px;
+		line-height: 20px;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	#timeline p{
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	/*
+	.text{
+	 	width: 80%;
+	 	/*display: block
+	}*/
+
+	.album{
+		margin: auto;
+	}
+
+	.cover {
+		display: block;
+		float: none;
+		margin: auto;
+	}
+
+	.ticker{
+		border: none;
+	}
 
 }
 
