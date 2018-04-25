@@ -459,18 +459,24 @@ a{
 @media(max-width: 630px){
 	#home_text{
     	top: 30px;
-    	left: 70px;
+    	left: 0px;
 	}
 	#home_text h1{
-		font-size:38px;
+		font-size:68px;
+		margin-left: 0px;
 		text-shadow: 1.5px 0px 0px #999999, 4px 0px 0px #990000;
 	}
 	#home_text a{
-		font-size: 25px;
+		font-size: 30px;
 	}
 	#nav{
-		margin-left: 10px;
+		margin-left: 0px;
     	margin-top: 30px;
+	}
+	#pic{
+		height: 100%;
+	    width: 150%;
+	    right: -250px;
 	}
 
 }
