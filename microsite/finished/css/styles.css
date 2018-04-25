@@ -285,7 +285,7 @@ a{
 
 
 
-@media(max-width: 1030px){
+/*@media(max-width: 1030px){
 	#home_text h1{
 		font-size: 114px;
     	text-shadow: 4px 0px 0px #999999, 9px 0px 0px #990000;
@@ -308,11 +308,36 @@ a{
     right: -470px;
 	}
 
+}*/
+@media(max-width: 1000px){
+	#home_text h1{
+		font-size: 60px;
+	    text-shadow: 2px 0px 0px #999999, 5px 0px 0px #990000;
+	    margin-bottom: 0px;
+	    margin-top: 10px;
+	    margin-left: -30px;
+	}
+	#home_text a{
+		font-size: 40px;
+		margin-bottom: 7px;
+	}
+	#nav{
+		margin-left: 25px;
+    	margin-top: 40px;
+	}
+	#pic {
+    height: 100%;
+    width: 100%;
+	}
 }
 @media(max-width: 900px){
+	#home_text{
+    	top: 30px;
+    	left: 70px;
+	}
 	#home_text h1{
 		font-size:43px;
-		text-shadow: 1px 0px 0px #999999, 2px 0px 0px #990000;
+		text-shadow: 1.5px 0px 0px #999999, 4px 0px 0px #990000;
 	}
 	#home_text a{
 		font-size: 30px;
@@ -322,58 +347,29 @@ a{
     	margin-top: 30px;
 	}
 }
-@media(max-width: 810px){
 
 
-}
-@media(max-width:800px){
-	#home_text h1{
-		font-size: 126px;
-    	text-shadow: 4px 0px 0px #999999, 9px 0px 0px #990000;
-    	margin-bottom: 0px;
-    	margin-top: 10px;
-    	margin-left: -30px;
-	}
-	#home_text a{
-		font-size: 60px;
-		margin-bottom: 10px;
-	}
-	#nav{
-		margin-left: 25px;
-    	margin-top: 65px;
-	}
-	#pic {
-    height: 140%;
-    width: 210%;
-    right: -875px;
-	}
-
-}
 @media(max-width: 700px){
 	#home_text{
-		margin: 0;
+    	top: 30px;
+    	left: 70px;
 	}
 	#home_text h1{
-		font-size: 76px;
-	    text-align: center;
-	    text-shadow: 1px 0px 0px #999999, 3px 0px 0px #990000;
-	    margin-bottom: 0px;
-	    margin-top: 0px;
-	    margin-left: -100px;
+		font-size:43px;
+		text-shadow: 1.5px 0px 0px #999999, 4px 0px 0px #990000;
 	}
 	#home_text a{
-		font-size: 37px;
-    	margin-bottom: 10px;
+		font-size: 30px;
 	}
 	#nav{
-		margin-left: -55px;
-    	margin-top: 20px;
+		margin-left: 50px;
+    	margin-top: 30px;
 	}
-	#pic {
+	/*#pic {
         height: 100%;
     	width: 189%;
     	right: -347px;
-	}
+	}*/
 	#sidebar{
 		float: none;
 		position: relative;
@@ -457,6 +453,24 @@ a{
 
 	.ticker{
 		border: none;
+	}
+
+}
+@media(max-width: 630px){
+	#home_text{
+    	top: 30px;
+    	left: 70px;
+	}
+	#home_text h1{
+		font-size:38px;
+		text-shadow: 1.5px 0px 0px #999999, 4px 0px 0px #990000;
+	}
+	#home_text a{
+		font-size: 25px;
+	}
+	#nav{
+		margin-left: 10px;
+    	margin-top: 30px;
 	}
 
 }
