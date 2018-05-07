@@ -208,7 +208,18 @@ html, body {
   margin-bottom: 40px;
 }
 
-
+@media(max-width: 630px){
+  button.menu{
+    background-color: white;
+  }
+  button.menu:after{
+    font-family:'Montserrat', 'Roboto', sans-serif; 
+    color: #333333;
+  }
+  #links{
+    background-color: white;
+  }
+}
 
 
 

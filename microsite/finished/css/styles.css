@@ -82,6 +82,9 @@ a{
 	margin-bottom: 0;
 	margin-left: 0;
 }
+.menu{
+	visibility: hidden;
+}
 #sidebar .potential:hover{
 	color: #999999;
 	text-shadow: 2px 0px 0px #333333, 3px 0px 0px #990000; 
@@ -269,6 +272,10 @@ a{
 	background-size: contain;
 }
 
+#sources #main a{
+	font-weight: 300;
+}
+
 @media(max-width: 1100px){
 	#home_text h1{
 		font-size:60px;
@@ -415,11 +422,12 @@ a{
 		font-size: 35px;
 		line-height: 30px;
 		font-weight: 700;
+		text-align: center;
 	}
 
 	#main p{
 		line-height: 1.4;
-	    font-size: 25px;
+	    font-size: 20px;
 	    font-weight: 300;
 	}
 
@@ -454,29 +462,104 @@ a{
 	.ticker{
 		border: none;
 	}
+	/*#control{
+			visibility: visible;
+			height: 10px;
+			width: 100%;
+			display: block;
+		}
+	#control:hover{
+		cursor: pointer;
+	}
+	#links{
+		visibility: hidden;
+		height: 0px;
+		width: 100%;
+	}
 
+	.open{
+		visibility: visible;
+		height:300px;
+		width: 100%;
+	}*/
 }
 @media(max-width: 630px){
+	#kw{
+		margin-bottom: 0;
+	}
+	#sidebar a{
+		margin-left: 0;
+	}
+	button.menu{
+		visibility: visible;
+		background-color: #231F20;
+		/*content: "menu";*/
+		width: 100%;
+		height: 30px;
+		cursor: pointer;
+		border: none;
+		
+	}
+	button.menu:after{
+		content: "MENU";
+		font-family:'Montserrat', 'Roboto', sans-serif; 
+		color: #999999;
+		font-size: 20px;
+		font-weight: 500;
+		text-align: center;
+	}
+	#links{
+		position: absolute;
+		background-color: #231F20;
+		visibility: hidden;
+		z-index: 1000;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%
+	}
+
+	#links.open{
+		visibility: visible;
+	}
+
 	#home_text{
     	top: 30px;
     	left: 0px;
 	}
 	#home_text h1{
-		font-size:68px;
+		font-size:56px;
 		margin-left: 0px;
 		text-shadow: 1.5px 0px 0px #999999, 4px 0px 0px #990000;
 	}
 	#home_text a{
-		font-size: 30px;
+		font-size: 27px;
 	}
 	#nav{
 		margin-left: 0px;
-    	margin-top: 30px;
+    	margin-top: 20px;
 	}
 	#pic{
 		height: 100%;
 	    width: 150%;
 	    right: -250px;
+	}
+
+	.album{
+		margin: auto;
+	}
+
+	.cover {
+		display: block;
+		float: none;
+		margin: auto;
+		width: 90vw;
+		height: 90vw;
+	}
+
+	#sources #main a{
+		font-weight: 300;
+		font-size: 20px;
+		width: 100%;
 	}
 
 }
