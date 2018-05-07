@@ -62,6 +62,8 @@ a{
 	margin-left: 6%;
 	margin-top: 6%;
 	width: 35%;
+	z-index: 2;
+
 }
 #kw{
 	margin-bottom: 70px;
@@ -95,6 +97,9 @@ a{
 }*/
 #active{
 	color: #999999;
+}
+.back-to-top{
+	visibility: hidden;
 }
 .potential{
 	color: #555555;
@@ -194,6 +199,11 @@ a{
 #timeline p{
 	font-size: 20px;
 	line-height: 30px;
+}
+
+#timeline a{
+	margin: 0;
+	margin-right: 15px;
 }
 
 /*
@@ -353,6 +363,12 @@ a{
 		margin-left: 50px;
     	margin-top: 30px;
 	}
+	#main{
+		margin-right: 5%;
+	}
+	#main p{
+		font-size: 20px;
+	}
 }
 
 
@@ -390,10 +406,60 @@ a{
 	#links a{
 		font-size: 35px;
 		margin-bottom: 10px;
+		width: 100%;
 	}
 	#kw{
-		margin-bottom: 20px;
+		margin-bottom: 0;
+		margin: auto;
 	}
+	button.menu{
+		visibility: visible;
+		background-color: #231F20;
+		/*content: "menu";*/
+		width: 100%;
+		height: 30px;
+		cursor: pointer;
+		border: none;
+		
+	}
+	button.menu:after{
+		content: "MENU";
+		font-family:'Montserrat', 'Roboto', sans-serif; 
+		color: #999999;
+		font-size: 20px;
+		font-weight: 300;
+		text-align: center;
+	}
+	#links{
+		position: absolute;
+		background-color: #231F20;
+		visibility: hidden;
+		z-index: 1000;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100%
+	}
+	#links.open{
+		visibility: visible;
+	}
+	/*.back-to-top {
+		visibility: visible;
+		background: none;
+		margin: 0;
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		width: 70px;
+		height: 70px;
+		z-index: 100;
+		display: none;
+		text-decoration: none;
+		color: white;
+		background-color: #ff9000;
+	}
+	.back-to-top i {
+		font-size: 60px;
+	}*/
 	/*#kw:hover{
 		text-shadow: 2.5px 0px 0px #333333, 4.5px 0px 0px #990000;
 	}*/
@@ -412,9 +478,10 @@ a{
 	}
 
 	#main{
-		width: 100%;
+		width: 98%;
 		display: block;
 		margin: 0;
+		float: none;
 
 	}
 
@@ -442,46 +509,25 @@ a{
 		font-size: 20px;
 		line-height: 30px;
 	}
-
-	/*
-	.text{
-	 	width: 80%;
-	 	/*display: block
-	}*/
-
+	#timeline a{
+		margin: auto;
+	}
 	.album{
 		margin: auto;
+		margin-bottom: 60px;
 	}
 
 	.cover {
 		display: block;
 		float: none;
 		margin: auto;
+		height: 50vw;
+		width: 50vw;
 	}
 
 	.ticker{
 		border: none;
 	}
-	/*#control{
-			visibility: visible;
-			height: 10px;
-			width: 100%;
-			display: block;
-		}
-	#control:hover{
-		cursor: pointer;
-	}
-	#links{
-		visibility: hidden;
-		height: 0px;
-		width: 100%;
-	}
-
-	.open{
-		visibility: visible;
-		height:300px;
-		width: 100%;
-	}*/
 }
 @media(max-width: 630px){
 	#kw{
@@ -521,7 +567,11 @@ a{
 	#links.open{
 		visibility: visible;
 	}
-
+	#main{
+		padding-right: 2%;
+		padding-left: 2%;
+		margin: 0;
+	}
 	#home_text{
     	top: 30px;
     	left: 0px;
@@ -555,13 +605,11 @@ a{
 		width: 90vw;
 		height: 90vw;
 	}
-
 	#sources #main a{
 		font-weight: 300;
 		font-size: 20px;
 		width: 100%;
 	}
-
 }
 
 
