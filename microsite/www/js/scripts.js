@@ -5,6 +5,11 @@ $(document).ready(function(){
 		 $(this).hide([.5]);
 	})
 
+	$(".menu").click(function(){
+		$("#links").toggleClass("open");
+	})
+	console.log("Toggled the class!");
+
 	// $("#life").hover(function(){
 	// 	$("#redlife").hide();
 	// 	$("#graylife").hide();
